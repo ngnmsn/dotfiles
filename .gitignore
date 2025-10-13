@@ -1,0 +1,10 @@
+# .gitignore
+# Ignore All
+*
+!*/
+
+# Allowlist
+!.gitignore
+!init.sh
+!.tmux.conf
+!.config/fish/*
