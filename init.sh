@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
-ln -sf ~/dotfiles/.config ~/.config
+ln -sf ~/dotfiles/.config/fish ~/.config/fish
