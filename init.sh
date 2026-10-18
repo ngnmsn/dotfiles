@@ -6,3 +6,5 @@ rm -rf ~/.config/fish
 ln -sf ~/dotfiles/.config/fish ~/.config/fish
 rm -rf ~/.config/nvim
 ln -sf ~/dotfiles/.config/nvim ~/.config/nvim
+rm -rf ~/.config/ghostty
+ln -sf ~/dotfiles/.config/ghostty ~/.config/ghostty

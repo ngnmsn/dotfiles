@@ -1,0 +1,16 @@
+# font
+font-family = "SauceCodePro Nerd Font Mono"
+font-size = 15
+
+# theme
+theme = Catppuccin Mocha
+
+# window
+background-opacity = 0.9
+background-blur = 20
+window-padding-x = 8
+window-padding-y = 6
+window-padding-balance = true
+
+# input
+mouse-hide-while-typing = true
