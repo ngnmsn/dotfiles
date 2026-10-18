@@ -1,1 +1,19 @@
 onboarding = false
+
+# Ghostty の背景透過 (opacity 0.9 + blur) を herdr のパネルにも通す
+[theme.custom]
+panel_bg = "reset"
+
+# 起動元の $SHELL に依存させない（要サーバー再起動）
+[terminal]
+default_shell = "/opt/homebrew/bin/fish"
+
+# バックグラウンドのエージェント通知を macOS に出す
+[ui.toast]
+delivery = "system"
+
+# 日本語 IME 対応（要サーバー再起動）
+[experimental]
+switch_ascii_input_source_in_prefix = true
+reveal_hidden_cursor_for_cjk_ime = true
+cjk_ime_agents = ["claude"]
